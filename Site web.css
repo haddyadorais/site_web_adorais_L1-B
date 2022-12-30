@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: 0;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: yellow;
+}
+body {
+    background-color:  #18445d ;
+}
+section {
+    margin-top: 50px;
+}
+header {
+    background-color:  #18445d ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+}
+header  .logo a {
+    font-size: 25px;
+    color: yellow;
+}
+header  .logo a span {
+    color: #fff;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu li  {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+#home{
+    background: linear-gradient(rgba(0,0,0,0.1),#333), url("images/dubai.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#home h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: #fff 0.02px;
+    color: transparent;
+    text-transform: lowercase;
+}
+#home a {
+    font-size: 50px;
+    color: rgb(8, 8, 83);
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+
+#home h4 {
+    font-size: 50px;
+    color: rgb(251, 249, 249);
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+#home p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 12px;	
+}
+#home2{
+    background: linear-gradient(rgba(0,0,0,0.1),#333), url("images/ski.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#home2 h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: #fff 0.02px;
+    color: transparent;
+    text-transform: lowercase;
+}
+.title {
+    text-transform: capitalize;
+    margin: 70px 0;
+    font-weight: bold;
+    color: yellow;
+    position: relative;
+    margin-left:15px;
+    font-size: 18px;
+
+
+   
